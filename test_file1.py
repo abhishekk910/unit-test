@@ -3,7 +3,7 @@ import unittest
 class TestClass(unittest.TestCase):
 
 	def test_func1(self):
-		a = 20
+		a = 21
 		b = 20
 		self.assertNotEqual(a, b)
 		
