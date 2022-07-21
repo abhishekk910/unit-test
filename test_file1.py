@@ -14,5 +14,5 @@ class TestClass(unittest.TestCase):
 		
 	def test_func3(self):
 		a = "hello"
-		self.assertEqual(a, a.upper()) 
+		self.assertEqual(a, a.lower()) 
 		
