@@ -12,4 +12,7 @@ class TestClass(unittest.TestCase):
 		b = 3
 		self.assertTrue(b in a)
 		
+	def test_func3(self):
+		a = "hello"
+		self.assertEqual(a, a.upper()) 
 		
